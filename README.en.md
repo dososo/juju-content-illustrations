@@ -16,18 +16,29 @@ The images are used to calibrate the feel: white paper surface, light linework, 
   <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="Composition practice field" width="260">
 </p>
 
-<table>
-  <tr>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="Center composition" width="120"><br><sub>Center</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="Horizon composition" width="120"><br><sub>Horizon</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="Rule of thirds" width="120"><br><sub>Rule of Thirds</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="Diagonal composition" width="120"><br><sub>Diagonal</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="Frame composition" width="120"><br><sub>Frame</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="Repetition composition" width="120"><br><sub>Repetition</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="Center composition" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="Horizon composition" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="Rule of thirds" width="112">
+</p>
+
+<p align="center">
+  <sub>Center · Horizon · Rule of Thirds</sub>
+</p>
+
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="Diagonal composition" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="Frame composition" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="Repetition composition" width="112">
+</p>
+
+<p align="center">
+  <sub>Diagonal · Frame · Repetition</sub>
+</p>
 
 The full 10-image example set lives in `juju-content-illustrations/assets/examples/composition-3x4/`.
 
