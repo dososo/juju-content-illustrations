@@ -10,15 +10,26 @@ Juju is a white bichon organizer for complex ideas. It is not a pet avatar or a 
 
 This example is a photography composition lesson: one cover plus nine body cards. The cover introduces the parallel world, while each body card explains one visual action.
 
-![Composition practice field](juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png)
+The images are used to calibrate the feel: white paper surface, light linework, Juju's action, low-saturation color, and a small parallel world. They are not layout templates. For each new piece of content, the skill should invent a new metaphor, set of props, and visual relationship.
 
-| Center | Horizon | Rule of Thirds |
-|---|---|---|
-| ![Center composition](juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png) | ![Horizon composition](juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png) | ![Rule of thirds](juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png) |
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="Composition practice field" width="260">
+</p>
 
-| Diagonal | Frame | Repetition |
-|---|---|---|
-| ![Diagonal composition](juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png) | ![Frame composition](juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png) | ![Repetition composition](juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png) |
+<table>
+  <tr>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="Center composition" width="120"><br><sub>Center</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="Horizon composition" width="120"><br><sub>Horizon</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="Rule of thirds" width="120"><br><sub>Rule of Thirds</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="Diagonal composition" width="120"><br><sub>Diagonal</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="Frame composition" width="120"><br><sub>Frame</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="Repetition composition" width="120"><br><sub>Repetition</sub></td>
+  </tr>
+</table>
+
+The full 10-image example set lives in `juju-content-illustrations/assets/examples/composition-3x4/`.
 
 ## What It Does
 
@@ -27,6 +38,13 @@ This example is a photography composition lesson: one cover plus nine body cards
 - Turns the content into titles, visual actions, low-tech metaphors, integrated Chinese labels, and image-generation prompts.
 - Chooses color mood, parallel world, and visual rhythm from the content tone.
 - Works with the image-generation capability available in the current Agent. If images cannot be generated directly, it outputs copy-ready prompts.
+
+## What You Get
+
+- If the current environment can generate images, you get one Juju-style image or a complete image set.
+- If image generation is not available, you get copy-ready prompts for your own image tool.
+- For a set, the cover creates the entry point, memory, and world; body cards explain separate key points without repeating the cover layout.
+- This public package includes the installable Skill, visual rules, output formats, prompt template, and example assets. It does not include private project material.
 
 ## Who It Is For
 
@@ -172,6 +190,12 @@ No. If the current environment can generate images, use it directly. If not, use
 
 **Can I use it commercially?**  
 Check the License. Also confirm the usage terms of your image model and the rights to your source content.
+
+**What input works best?**
+Full articles, lessons, retrospectives, opinion drafts, and product notes all work. It helps to include the target reader and publishing platform. If you provide only one sentence, the skill will usually make a single idea image.
+
+**Can I reuse the example images directly?**
+Use them to understand the style, but avoid reusing their composition. Juju Organizing Lab works best when it designs a new parallel world for each piece of content.
 
 ## Author
 
