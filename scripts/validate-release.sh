@@ -34,8 +34,10 @@ for file in "${required_files[@]}"; do
   [[ -f "$ROOT_DIR/$file" ]] || fail "missing file: $file"
 done
 
-rg -n '简体中文.*English|version-v0.1.0|Skill 目录' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing language switch or version badges"
-rg -n '简体中文.*English|version-v0.1.0|Skill directory' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing language switch or version badges"
+rg -n '简体中文.*English' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing language switch"
+rg -n 'version-v0.1.0' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing version badge"
+rg -n '简体中文.*English' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing language switch"
+rg -n 'version-v0.1.0' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing version badge"
 
 image_count="$(find "$SKILL_DIR/assets/examples/composition-3x4" -maxdepth 1 -type f -name '*.png' | wc -l | tr -d ' ')"
 [[ "$image_count" == "10" ]] || fail "expected 10 example PNG files, got $image_count"
