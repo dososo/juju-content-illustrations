@@ -10,15 +10,26 @@
 
 这是一组摄影构图教程示例：1 张封面 + 9 张正文图。封面建立“构图练习场”的平行世界入口，正文每张只讲一个构图动作。
 
-![构图练习场](juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png)
+示例图用于校准“白底纸面、轻线稿、卷卷动作、低饱和主题色、平行世界”的整体感觉，不是构图模板。真正使用时，Skill 会从你的内容重新发明隐喻、道具和画面关系。
 
-| 中心构图 | 水平线构图 | 三分构图 |
-|---|---|---|
-| ![中心构图](juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png) | ![水平线构图](juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png) | ![三分构图](juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png) |
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="构图练习场" width="260">
+</p>
 
-| 对角线构图 | 框架构图 | 重复构图 |
-|---|---|---|
-| ![对角线构图](juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png) | ![框架构图](juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png) | ![重复构图](juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png) |
+<table>
+  <tr>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="中心构图" width="120"><br><sub>中心构图</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="水平线构图" width="120"><br><sub>水平线构图</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="三分构图" width="120"><br><sub>三分构图</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="对角线构图" width="120"><br><sub>对角线构图</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="框架构图" width="120"><br><sub>框架构图</sub></td>
+    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="重复构图" width="120"><br><sub>重复构图</sub></td>
+  </tr>
+</table>
+
+完整 10 张示例图在 `juju-content-illustrations/assets/examples/composition-3x4/`。
 
 ## 它能做什么
 
@@ -27,6 +38,13 @@
 - 帮你把内容拆成标题、画面动作、低技术隐喻、中文标注和生图 prompts。
 - 根据内容基调选择主题色、平行世界和整体氛围。
 - 配合当前 Agent 已接入的生图能力使用；不能直接生图时，会给出可复制的 prompts。
+
+## 你会得到什么
+
+- 如果当前环境可以直接生图，你会得到一张或一套卷卷风格图片。
+- 如果当前环境不能直接生图，你会得到成套 prompts，可以复制到自己的图像工具中使用。
+- 如果是套图，封面负责入口、记忆点和整体世界；正文图负责拆解不同关键点，不重复封面构图。
+- 这个公开包包含可安装 Skill、视觉规则、输出比例、prompt 模板和示例资产，不包含私有项目资料。
 
 ## 适合谁
 
@@ -172,6 +190,12 @@ juju-content-illustrations/
 
 **可以商用吗？**  
 请查看本仓库的 License。示例图和提示词用于展示 Skill 能力，正式商业使用时请自行确认所用图像模型和内容来源的授权。
+
+**输入什么内容效果最好？**
+完整文章、教程、复盘、观点草稿、产品说明都可以。最好同时给出目标读者和发布平台；如果只给一句话，Skill 也能做，但会更偏单张观点图。
+
+**示例图可以直接复用吗？**
+示例图可以用来理解风格，不建议直接复用构图。卷卷整理研究所更适合为每篇内容重新设计平行世界。
 
 ## 关于作者
 
