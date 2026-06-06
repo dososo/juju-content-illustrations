@@ -7,10 +7,6 @@
 [![Skill](https://img.shields.io/badge/skill-juju--content--illustrations-4f7cff)](juju-content-illustrations/SKILL.md)
 [![Examples](https://img.shields.io/badge/examples-10_images-8a7b6f)](juju-content-illustrations/assets/examples/composition-3x4/)
 
-当前版本：`v0.1.0`
-
-Skill 目录：`juju-content-illustrations/`
-
 卷卷不是让你更卷。卷卷是帮你少内耗。
 
 把文章、观点、教程和复盘，整理成清晰、可开始、可收藏、可复用的手绘视觉方法图。
