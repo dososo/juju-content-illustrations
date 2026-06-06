@@ -7,10 +7,6 @@
 [![Skill](https://img.shields.io/badge/skill-juju--content--illustrations-4f7cff)](juju-content-illustrations/SKILL.md)
 [![Examples](https://img.shields.io/badge/examples-10_images-8a7b6f)](juju-content-illustrations/assets/examples/composition-3x4/)
 
-Current version: `v0.1.0`
-
-Skill directory: `juju-content-illustrations/`
-
 Juju does not help you hustle harder. It helps you reduce friction and begin.
 
 Turn articles, lessons, product notes, and retrospectives into clear, saveable, reusable hand-drawn visual method cards.
