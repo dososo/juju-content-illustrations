@@ -38,7 +38,7 @@ for image in "$SKILL_DIR"/assets/examples/composition-3x4/*.png; do
   [[ "$size" == "1200x1600" ]] || fail "bad image size for $image: $size"
 done
 
-leak_pattern='/Users/|manxiaochu|杰哥|HANDOFF|PROJECT_TODO|CHANGE_LOG|registry/|tasks/|UAT|uat|candidate_|proof|accepted|rejected|preflight|not release ready|release ready|小黑|helloianneo|xiaohei|对标|Douban|豆瓣|何瑶汐|周嘉宁|版权归作者|BLTeam|Fired myself|thinkszyg|blteam2026'
+leak_pattern='/Users/|manxiaochu|杰哥|HANDOFF|PROJECT_TODO|CHANGE_LOG|registry/|tasks/|UAT|uat|candidate_|proof|accepted|rejected|preflight|not release ready|release ready|小黑|helloianneo|xiaohei|对标|Douban|豆瓣|何瑶汐|周嘉宁|版权归作者'
 
 if rg -n --glob '!**/validate-release.sh' "$leak_pattern" "$ROOT_DIR" >/dev/null; then
   rg -n --glob '!**/validate-release.sh' "$leak_pattern" "$ROOT_DIR" >&2

@@ -173,6 +173,18 @@ No. If the current environment can generate images, use it directly. If not, use
 **Can I use it commercially?**  
 Check the License. Also confirm the usage terms of your image model and the rights to your source content.
 
+## Author
+
+爆裂队长NEXT
+
+15yr PM. Fired myself. Hired 10 AIs. Turns out managing AIs is harder than managing humans.
+
+AI Agents BLTeam field notes. Real production work, production-grade lessons, and ongoing firsthand signals. Less secondhand noise, more firsthand sources.
+
+X/Twitter: [@thinkszyg](https://x.com/thinkszyg)
+
+Email: blteam2026@outlook.com
+
 ## License
 
 MIT. See `LICENSE`.

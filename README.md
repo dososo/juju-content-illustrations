@@ -173,6 +173,18 @@ juju-content-illustrations/
 **可以商用吗？**  
 请查看本仓库的 License。示例图和提示词用于展示 Skill 能力，正式商业使用时请自行确认所用图像模型和内容来源的授权。
 
+## 关于作者
+
+爆裂队长NEXT
+
+15yr PM. Fired myself. Hired 10 AIs. Turns out managing AIs is harder than managing humans.
+
+AI Agents BLTeam 翻车笔记。真实战，生产级真干货持续分享。少刷二手情绪，多看一手信号源。
+
+X/Twitter: [@thinkszyg](https://x.com/thinkszyg)
+
+邮箱: blteam2026@outlook.com
+
 ## License
 
 MIT。详见 `LICENSE`。
