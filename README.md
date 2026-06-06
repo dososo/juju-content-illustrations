@@ -16,18 +16,29 @@
   <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="构图练习场" width="260">
 </p>
 
-<table>
-  <tr>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="中心构图" width="120"><br><sub>中心构图</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="水平线构图" width="120"><br><sub>水平线构图</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="三分构图" width="120"><br><sub>三分构图</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="对角线构图" width="120"><br><sub>对角线构图</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="框架构图" width="120"><br><sub>框架构图</sub></td>
-    <td align="center"><img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="重复构图" width="120"><br><sub>重复构图</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="中心构图" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="水平线构图" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="三分构图" width="112">
+</p>
+
+<p align="center">
+  <sub>中心构图 · 水平线构图 · 三分构图</sub>
+</p>
+
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="对角线构图" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="框架构图" width="112">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="重复构图" width="112">
+</p>
+
+<p align="center">
+  <sub>对角线构图 · 框架构图 · 重复构图</sub>
+</p>
 
 完整 10 张示例图在 `juju-content-illustrations/assets/examples/composition-3x4/`。
 
