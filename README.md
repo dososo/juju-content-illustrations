@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/version-v0.1.0-ef7d45)](VERSION)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
 [![Skill](https://img.shields.io/badge/skill-juju--content--illustrations-4f7cff)](juju-content-illustrations/SKILL.md)
-[![Examples](https://img.shields.io/badge/examples-10_images-8a7b6f)](juju-content-illustrations/assets/examples/composition-3x4/)
+[![Examples](https://img.shields.io/badge/examples-overview_%2B_10_cards-8a7b6f)](juju-content-illustrations/assets/examples/)
 
 卷卷不是让你更卷。卷卷是帮你少内耗。
 
@@ -15,9 +15,13 @@
 
 ## 示例
 
-这是一组摄影构图教程示例：1 张封面 + 9 张正文图。封面建立“构图练习场”的平行世界入口，正文每张只讲一个构图动作。
+这是一组示例：1 张 Skill 总览图 + 1 张构图练习场封面 + 9 张正文图。总览图说明卷卷整理研究所能做什么，封面建立“构图练习场”的平行世界入口，正文每张只讲一个构图动作。
 
 示例图用于校准“白底纸面、轻线稿、卷卷动作、低饱和主题色、平行世界”的整体感觉，不是构图模板。真正使用时，Skill 会从你的内容重新发明隐喻、道具和画面关系。
+
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/skill-overview.jpeg" alt="卷卷整理研究所内容插画 Skill 总览" width="260">
+</p>
 
 <p align="center">
   <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="构图练习场" width="260">
@@ -47,7 +51,7 @@
   <sub>对角线构图 · 框架构图 · 重复构图</sub>
 </p>
 
-完整 10 张示例图在 `juju-content-illustrations/assets/examples/composition-3x4/`。
+完整 10 张构图练习场示例图在 `juju-content-illustrations/assets/examples/composition-3x4/`。
 
 ## 它能做什么
 
