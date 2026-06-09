@@ -22,6 +22,7 @@ required_files=(
   "CONTRIBUTING.md"
   "SECURITY.md"
   "juju-content-illustrations/SKILL.md"
+  "juju-content-illustrations/assets/examples/skill-overview.jpeg"
   "juju-content-illustrations/references/style-dna.md"
   "juju-content-illustrations/references/output-formats.md"
   "juju-content-illustrations/references/workflow.md"
@@ -36,11 +37,16 @@ done
 
 rg -n '简体中文.*English' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing language switch"
 rg -n 'version-v0.1.0' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing version badge"
+rg -n 'skill-overview.jpeg' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing skill overview image"
 rg -n '简体中文.*English' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing language switch"
 rg -n 'version-v0.1.0' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing version badge"
+rg -n 'skill-overview.jpeg' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing skill overview image"
 
 image_count="$(find "$SKILL_DIR/assets/examples/composition-3x4" -maxdepth 1 -type f -name '*.png' | wc -l | tr -d ' ')"
 [[ "$image_count" == "10" ]] || fail "expected 10 example PNG files, got $image_count"
+
+overview_size="$(sips -g pixelWidth -g pixelHeight "$SKILL_DIR/assets/examples/skill-overview.jpeg" 2>/dev/null | awk '/pixelWidth/ {w=$2} /pixelHeight/ {h=$2} END {print w "x" h}')"
+[[ "$overview_size" == "1122x1402" ]] || fail "bad image size for skill overview: $overview_size"
 
 for image in "$SKILL_DIR"/assets/examples/composition-3x4/*.png; do
   size="$(sips -g pixelWidth -g pixelHeight "$image" 2>/dev/null | awk '/pixelWidth/ {w=$2} /pixelHeight/ {h=$2} END {print w "x" h}')"
