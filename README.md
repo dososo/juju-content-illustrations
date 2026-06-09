@@ -20,19 +20,19 @@
 示例图用于校准“白底纸面、轻线稿、卷卷动作、低饱和主题色、平行世界”的整体感觉，不是构图模板。真正使用时，Skill 会从你的内容重新发明隐喻、道具和画面关系。
 
 <p align="center">
-  <img src="juju-content-illustrations/assets/examples/skill-overview.jpeg" alt="卷卷整理研究所内容插画 Skill 总览" width="260">
+  <img src="juju-content-illustrations/assets/examples/skill-overview.jpeg" alt="卷卷整理研究所内容插画 Skill 总览" width="380">
 </p>
 
 <p align="center">
-  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="构图练习场" width="260">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="构图练习场" width="380">
 </p>
 
 <p align="center">
-  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="中心构图" width="112">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-01-center.png" alt="中心构图" width="150">
   &nbsp;&nbsp;
-  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="水平线构图" width="112">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-02-horizon.png" alt="水平线构图" width="150">
   &nbsp;&nbsp;
-  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="三分构图" width="112">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-04-thirds.png" alt="三分构图" width="150">
 </p>
 
 <p align="center">
@@ -40,11 +40,11 @@
 </p>
 
 <p align="center">
-  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="对角线构图" width="112">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-06-diagonal.png" alt="对角线构图" width="150">
   &nbsp;&nbsp;
-  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="框架构图" width="112">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-08-frame.png" alt="框架构图" width="150">
   &nbsp;&nbsp;
-  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="重复构图" width="112">
+  <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-09-repetition.png" alt="重复构图" width="150">
 </p>
 
 <p align="center">
