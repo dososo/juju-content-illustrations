@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/version-v0.1.0-ef7d45)](VERSION)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
 [![Skill](https://img.shields.io/badge/skill-juju--content--illustrations-4f7cff)](juju-content-illustrations/SKILL.md)
-[![Examples](https://img.shields.io/badge/examples-10_images-8a7b6f)](juju-content-illustrations/assets/examples/composition-3x4/)
+[![Examples](https://img.shields.io/badge/examples-overview_%2B_10_cards-8a7b6f)](juju-content-illustrations/assets/examples/)
 
 Juju does not help you hustle harder. It helps you reduce friction and begin.
 
@@ -15,9 +15,13 @@ Juju is a white bichon organizer for complex ideas. It is not a pet avatar or a 
 
 ## Examples
 
-This example is a photography composition lesson: one cover plus nine body cards. The cover introduces the parallel world, while each body card explains one visual action.
+This example set includes one Skill overview image, one composition practice cover, and nine body cards. The overview explains what Juju Organizing Lab does. The cover introduces the composition-practice parallel world, while each body card explains one visual action.
 
 The images are used to calibrate the feel: white paper surface, light linework, Juju's action, low-saturation color, and a small parallel world. They are not layout templates. For each new piece of content, the skill should invent a new metaphor, set of props, and visual relationship.
+
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/skill-overview.jpeg" alt="Juju Organizing Lab content illustration skill overview" width="260">
+</p>
 
 <p align="center">
   <img src="juju-content-illustrations/assets/examples/composition-3x4/composition-cover.png" alt="Composition practice field" width="260">
@@ -47,7 +51,7 @@ The images are used to calibrate the feel: white paper surface, light linework, 
   <sub>Diagonal · Frame · Repetition</sub>
 </p>
 
-The full 10-image example set lives in `juju-content-illustrations/assets/examples/composition-3x4/`.
+The full 10-card composition practice set lives in `juju-content-illustrations/assets/examples/composition-3x4/`.
 
 ## What It Does
 
