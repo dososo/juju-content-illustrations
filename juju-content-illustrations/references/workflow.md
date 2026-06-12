@@ -31,6 +31,7 @@ Identify:
 - useful structure;
 - possible image count;
 - possible parallel world.
+- possible variation dimensions.
 
 ## 3. Structure Decision
 
@@ -49,10 +50,16 @@ For each card, define:
 - title;
 - cognitive action;
 - Juju action;
+- Juju pose and scarf rule;
 - metaphor;
 - props;
+- off-canvas cue only if useful;
 - allowed text;
 - color mood;
+- line language;
+- annotation colors;
+- text placement;
+- variation points;
 - ratio.
 
 ## 5. Prompting

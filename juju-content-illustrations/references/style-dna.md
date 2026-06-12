@@ -14,7 +14,7 @@ Required traits:
 - drooping ears;
 - short legs;
 - small dog proportions;
-- optional orange scarf or badge.
+- optional orange scarf with small `Juju` lettering, or plain orange when text is too small.
 
 Reject if Juju looks like:
 
@@ -23,6 +23,7 @@ Reject if Juju looks like:
 - generic plush toy;
 - pet portrait;
 - idle mascot.
+- Chinese, gibberish, or random symbols on Juju's scarf.
 
 ## Visual Surface
 
@@ -30,6 +31,7 @@ Reject if Juju looks like:
 - Light black hand-drawn linework.
 - Small paper props, tape, cards, frames, tools, paths, notes.
 - Low-saturation colors.
+- Semantic color annotations, not decorative color noise.
 - Visible whitespace.
 - No slide-template UI.
 - No dashboard look.
@@ -67,3 +69,20 @@ Avoid:
 - dense paragraphs;
 - UI-like labels;
 - text floating without a visual object.
+
+## Variation
+
+For each new image, change at least four dimensions from previous examples:
+
+- world;
+- composition;
+- line language;
+- annotation palette;
+- metaphor props;
+- off-canvas cue;
+- text placement;
+- background color mood.
+
+Off-canvas cues are optional. Use them only when they help hand off, point, block noise, or move the cognitive action forward.
+
+Do not make a new image by only changing the title.

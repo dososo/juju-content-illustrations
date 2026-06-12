@@ -51,7 +51,7 @@ Do not ask the user how many images to generate unless the user explicitly wants
    - short series;
    - cover + body cards.
 4. Use no more than 10 images per run.
-5. Choose the parallel world, color mood, and image structure.
+5. Choose the parallel world, color mood, image structure, and variation strategy.
 6. Write one prompt per image.
 7. Call the available image-generation tool.
 8. If no image-generation tool is available, output copy-ready prompts and tell the user what tool is missing.
@@ -75,7 +75,7 @@ Juju must read as a white bichon dog:
 - drooping ears;
 - short legs;
 - small dog proportions;
-- optional orange scarf or small badge.
+- optional orange scarf with small `Juju` lettering, or a plain orange scarf when text is too small or unstable.
 
 Avoid:
 
@@ -84,6 +84,7 @@ Avoid:
 - pet portrait;
 - overly cute healing illustration;
 - character standing idle while the diagram does the work.
+- Chinese, gibberish, or random symbols on Juju's scarf.
 
 ## Style DNA
 
@@ -106,6 +107,16 @@ paper practice field + small working props + clear Juju action + low-saturation 
 
 The photography composition example in `assets/examples/composition-3x4/` is the current public calibration set.
 
+v0.2 adds a variation layer:
+
+- lighter linework by default;
+- semantic color annotations;
+- more diverse parallel worlds;
+- off-canvas props or gestures only when useful;
+- more varied text placement;
+- stronger anti-repetition rules.
+- more explicit Juju pose and scarf rules.
+
 ## Parallel Worlds
 
 Choose a parallel world from the content. Examples:
@@ -117,6 +128,11 @@ Choose a parallel world from the content. Examples:
 - toolbox and workbench;
 - emotional weather room;
 - retrospective repair shop.
+- broken bridge and gap;
+- island crossing;
+- signal tower;
+- folded-paper city;
+- small experiment field.
 
 Do not reuse an old world as a template. Each new article should invent its own metaphor.
 
@@ -127,9 +143,11 @@ Use restrained color. Color should clarify the action, not decorate the canvas.
 - White or near-white remains dominant.
 - Black linework anchors the image.
 - Low-saturation colors may shift by card.
-- Orange can mark the main path or Juju's scarf.
+- Orange can mark the main path or Juju's scarf; scarf text should be `Juju` or omitted.
 - Blue can mark loops, water, evidence, or secondary path.
 - Red is only for small correction marks or warnings.
+- Green can mark reusable ideas, saved methods, or growth.
+- Purple-gray can mark ambiguity or unnamed states.
 
 For a series:
 
@@ -144,16 +162,22 @@ Each image prompt must include:
 - target ratio and size;
 - title and allowed text;
 - Juju action;
+- Juju pose and scarf rule;
 - cognitive action;
 - metaphor props;
 - color mood;
 - parallel world;
+- variation strategy;
+- line language;
+- semantic annotation colors;
+- text placement;
 - negative constraints.
 
 Every prompt must explicitly say:
 
 ```text
 Juju must look like a white bichon dog, not a sheep or wool ball.
+If Juju has scarf text, it must read `Juju`; otherwise keep the scarf plain orange. Do not put Chinese, gibberish, or random marks on the scarf.
 ```
 
 ## Image Tool Handling
@@ -169,11 +193,14 @@ Do not pretend an image was generated. If generation fails, say what failed and 
 Before delivery, check:
 
 - Does Juju look like a bichon?
+- Does Juju's scarf read `Juju` or stay plain, without Chinese or gibberish?
 - Is there one clear cognitive action?
 - Is the text readable?
 - Is the text integrated into the scene?
 - Does the cover differ from body cards?
 - Does each card in a series have a different action?
+- Does the image change enough from old examples in world, props, composition, line language, color, or text placement?
+- Are off-canvas props or gestures used only when they help the content?
 - Is the color restrained?
 - Does the image avoid copying old examples?
 
@@ -186,4 +213,5 @@ If a generated image fails, label the problem and either regenerate or provide a
 - `references/workflow.md`
 - `references/prompt-template.md`
 - `references/qa-checklist.md`
+- `references/variation-system.md`
 - `examples/composition-3x4-suite.md`

@@ -2,10 +2,10 @@
 
 **简体中文** | [English](README.en.md)
 
-[![Version](https://img.shields.io/badge/version-v0.1.0-ef7d45)](VERSION)
+[![Version](https://img.shields.io/badge/version-v0.2.0-ef7d45)](VERSION)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
 [![Skill](https://img.shields.io/badge/skill-juju--content--illustrations-4f7cff)](juju-content-illustrations/SKILL.md)
-[![Examples](https://img.shields.io/badge/examples-overview_%2B_10_cards-8a7b6f)](juju-content-illustrations/assets/examples/)
+[![Examples](https://img.shields.io/badge/examples-overview_%2B_10_cards_%2B_2_wide-8a7b6f)](juju-content-illustrations/assets/examples/)
 
 卷卷不是让你更卷。卷卷是帮你少内耗。
 
@@ -13,14 +13,28 @@
 
 卷卷是一只白色比熊复杂问题整理师。它不是宠物头像，也不是治愈小狗贴纸；它会在一个纸面平行世界里执行整理动作：圈出关键、拆开关系、照亮路径，把松散内容变成读者能进入的视觉现场。
 
+v0.2 增强了变化能力：更轻的线条、多色语义批注、更多平行世界、更灵活的文字位置，以及更强的反重复规则。
+
+这次继续收紧了两个细节：画外手势 / 道具不再每张都硬塞，只在能帮助递交、指向、遮挡噪音或推动动作时出现；卷卷的橙色围巾优先保留 `Juju` 小字，生成不稳时宁可无字，也不让它漂成中文或乱码。变化不是为了更花，而是为了每张图都更贴近内容。
+
 ## 示例
 
-这是一组示例：1 张 Skill 总览图 + 1 张构图练习场封面 + 9 张正文图。总览图说明卷卷整理研究所能做什么，封面建立“构图练习场”的平行世界入口，正文每张只讲一个构图动作。
+这是一组示例：1 张 Skill 总览图 + 1 张构图练习场封面 + 9 张正文图 + 2 张 16:9 文章正文配图。总览图说明卷卷整理研究所能做什么，构图练习场展示一组课程型套图，16:9 示例展示它如何处理一篇完整文章里的关键判断。
 
-示例图用于校准“白底纸面、轻线稿、卷卷动作、低饱和主题色、平行世界”的整体感觉，不是构图模板。真正使用时，Skill 会从你的内容重新发明隐喻、道具和画面关系。
+示例图用于校准“白底纸面、轻线稿、卷卷动作、低饱和主题色、平行世界”的整体感觉，不是构图模板。真正使用时，Skill 会从你的内容重新判断需要几张图，重新发明隐喻、道具、姿势和画面关系。
 
 <p align="center">
   <img src="juju-content-illustrations/assets/examples/skill-overview.jpeg" alt="卷卷整理研究所内容插画 Skill 总览" width="380">
+</p>
+
+<p align="center">
+  <img src="juju-content-illustrations/assets/examples/agent-memory-16x9/agent-memory-found-vs-continue.png" alt="查得到不等于别重来" width="360">
+  &nbsp;&nbsp;
+  <img src="juju-content-illustrations/assets/examples/agent-memory-16x9/agent-memory-hygiene.png" alt="记忆也要打扫" width="360">
+</p>
+
+<p align="center">
+  <sub>16:9 文章正文示例：查得到不等于别重来 · 记忆也要打扫</sub>
 </p>
 
 <p align="center">
@@ -51,7 +65,7 @@
   <sub>对角线构图 · 框架构图 · 重复构图</sub>
 </p>
 
-完整 10 张构图练习场示例图在 `juju-content-illustrations/assets/examples/composition-3x4/`。
+完整 10 张构图练习场示例图在 `juju-content-illustrations/assets/examples/composition-3x4/`。新增 16:9 文章正文示例在 `juju-content-illustrations/assets/examples/agent-memory-16x9/`。
 
 ## 它能做什么
 
@@ -59,6 +73,8 @@
 - 生成一张强观点图，或一组封面 + 正文套图。
 - 帮你把内容拆成标题、画面动作、低技术隐喻、中文标注和生图 prompts。
 - 根据内容基调选择主题色、平行世界和整体氛围。
+- 为每次生成重新组合线条、批注色、背景色、姿势、隐喻道具和文字位置，减少重复感。
+- 画外道具和手势按内容需要克制出现，不把每张图都变成同一种“有人伸手”的模板。
 - 配合当前 Agent 已接入的生图能力使用；不能直接生图时，会给出可复制的 prompts。
 
 ## 你会得到什么
@@ -90,10 +106,13 @@
 - 白底或近白纸面。
 - 黑色轻手绘线稿。
 - 低饱和主题色，按内容切换。
+- 多色批注有明确含义：红色纠偏、蓝色路径、绿色保留、橙色当前动作，不能只做装饰。
 - 卷卷必须像白色比熊：黑眼睛、黑鼻子、清楚眼鼻三角、下垂耳朵、短腿和小狗比例。
+- 卷卷的橙色围巾优先写 `Juju`；如果画面太小或生成不稳定，宁可无字，不写中文或乱码。
 - 每张图只讲一个认知动作。
+- 每张图都要有匹配内容的身体动作和身位变化，不能只是同一个站姿换标题。
 - 中文文字要嵌入画面，像标题、标签、便签、箭头和纸片，不做后贴字幕。
-- 画面可以有世界感，但不能让道具和氛围抢走内容判断。
+- 画面可以有世界感，但不能让道具、画外手势和氛围抢走内容判断。
 
 ## 平行世界
 
@@ -106,6 +125,7 @@
 - 工具盒和工作台。
 - 情绪天气房。
 - 复盘修理铺。
+- 断桥缺口、小岛渡口、信号塔、折纸城市、微型实验场等更广阔的场域。
 
 平行世界不是固定模板。每篇文章都要从内容重新发明隐喻。
 
@@ -185,7 +205,8 @@ juju-content-illustrations/
 │   ├── output-formats.md
 │   ├── workflow.md
 │   ├── prompt-template.md
-│   └── qa-checklist.md
+│   ├── qa-checklist.md
+│   └── variation-system.md
 ├── examples/
 │   └── composition-3x4-suite.md
 └── assets/
@@ -218,6 +239,9 @@ juju-content-illustrations/
 
 **示例图可以直接复用吗？**
 示例图可以用来理解风格，不建议直接复用构图。卷卷整理研究所更适合为每篇内容重新设计平行世界。
+
+**为什么不是每张图都有画外手势？**
+画外手势只是增强现场关系的工具，不是固定装饰。只有当它能递交、指向、遮挡噪音或推动卷卷动作时才出现。
 
 ## 关于作者
 

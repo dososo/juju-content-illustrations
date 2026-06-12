@@ -23,11 +23,14 @@ required_files=(
   "SECURITY.md"
   "juju-content-illustrations/SKILL.md"
   "juju-content-illustrations/assets/examples/skill-overview.jpeg"
+  "juju-content-illustrations/assets/examples/agent-memory-16x9/agent-memory-found-vs-continue.png"
+  "juju-content-illustrations/assets/examples/agent-memory-16x9/agent-memory-hygiene.png"
   "juju-content-illustrations/references/style-dna.md"
   "juju-content-illustrations/references/output-formats.md"
   "juju-content-illustrations/references/workflow.md"
   "juju-content-illustrations/references/prompt-template.md"
   "juju-content-illustrations/references/qa-checklist.md"
+  "juju-content-illustrations/references/variation-system.md"
   "juju-content-illustrations/examples/composition-3x4-suite.md"
 )
 
@@ -36,17 +39,29 @@ for file in "${required_files[@]}"; do
 done
 
 rg -n '简体中文.*English' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing language switch"
-rg -n 'version-v0.1.0' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing version badge"
+rg -n 'version-v0.2.0' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing version badge"
+rg -n '2_wide|agent-memory-16x9' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing 16:9 example section"
 rg -n 'skill-overview.jpeg' "$ROOT_DIR/README.md" >/dev/null || fail "README.md missing skill overview image"
 rg -n '简体中文.*English' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing language switch"
-rg -n 'version-v0.1.0' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing version badge"
+rg -n 'version-v0.2.0' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing version badge"
+rg -n '2_wide|agent-memory-16x9' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing 16:9 example section"
 rg -n 'skill-overview.jpeg' "$ROOT_DIR/README.en.md" >/dev/null || fail "README.en.md missing skill overview image"
+grep -Fxq 'v0.2.0' "$ROOT_DIR/VERSION" || fail "VERSION is not v0.2.0"
+rg -n 'variation|变化|反重复|semantic color' "$ROOT_DIR/juju-content-illustrations/references/variation-system.md" >/dev/null || fail "variation-system missing variation guidance"
 
 image_count="$(find "$SKILL_DIR/assets/examples/composition-3x4" -maxdepth 1 -type f -name '*.png' | wc -l | tr -d ' ')"
 [[ "$image_count" == "10" ]] || fail "expected 10 example PNG files, got $image_count"
 
 overview_size="$(sips -g pixelWidth -g pixelHeight "$SKILL_DIR/assets/examples/skill-overview.jpeg" 2>/dev/null | awk '/pixelWidth/ {w=$2} /pixelHeight/ {h=$2} END {print w "x" h}')"
 [[ "$overview_size" == "1122x1402" ]] || fail "bad image size for skill overview: $overview_size"
+
+wide_count="$(find "$SKILL_DIR/assets/examples/agent-memory-16x9" -maxdepth 1 -type f -name '*.png' | wc -l | tr -d ' ')"
+[[ "$wide_count" == "2" ]] || fail "expected 2 16:9 example PNG files, got $wide_count"
+
+for image in "$SKILL_DIR"/assets/examples/agent-memory-16x9/*.png; do
+  size="$(sips -g pixelWidth -g pixelHeight "$image" 2>/dev/null | awk '/pixelWidth/ {w=$2} /pixelHeight/ {h=$2} END {print w "x" h}')"
+  [[ "$size" == "1600x900" ]] || fail "bad image size for $image: $size"
+done
 
 for image in "$SKILL_DIR"/assets/examples/composition-3x4/*.png; do
   size="$(sips -g pixelWidth -g pixelHeight "$image" 2>/dev/null | awk '/pixelWidth/ {w=$2} /pixelHeight/ {h=$2} END {print w "x" h}')"
